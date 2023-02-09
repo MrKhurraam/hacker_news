@@ -1,16 +1,3 @@
 # hacker_news
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A flutter project which displays hacker news data in mobile app on fly. The project is completely implemented using BLoC pattern. There are two screens, first is Main Screen which display heading, comments, author of each news. Second is comment detail screen which display all the comments (with the author name) of selected news heading. Application get live data from hacker news api and show it in flutter app, as well as also maintain it in local Sqflite db.
